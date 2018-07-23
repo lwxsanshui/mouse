@@ -26,7 +26,7 @@ var Game = (function(_super){
     Laya.class(Game,'Game',_super);
     var _proto = Game.prototype;
     _proto.isShow = function(){
-        this.timeBar.value -=(1/8);
+        this.timeBar.value -=(1/90);
         if(this.timeBar.value <=0){
             this.gameOver();
             return;
