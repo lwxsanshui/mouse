@@ -16,6 +16,7 @@ var Hammer = (function(_super){
     };
     _proto.onMouseDown = function(){
         this.hit.play(0,false);
+        this.pos(Laya.stage.mouseX - this.width/2,Laya.stage.mouseY-this.height/3);
     };
     _proto.onMouseMove = function(){
         this.pos(Laya.stage.mouseX - this.width/2,Laya.stage.mouseY-this.height/3);
