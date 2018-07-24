@@ -2,7 +2,7 @@ var WebGL = laya.webgl.WebGL;
 
 var LayaSample = window.LayaSample || (window.LayaSample = {});
 Laya.init(800, 600, WebGL);
-Laya.stage.scaleMode = Laya.Stage.SCALE_NOSCALE;
+Laya.stage.scaleMode = Laya.Stage.SCALE_SHOWALL;
 Laya.stage.alignH = Laya.Stage.ALIGN_CENTER;
 Laya.stage.alignV = Laya.Stage.ALIGN_MIDDLE;
 Laya.stage.screenMode = Laya.Stage.SCREEN_NONE;
